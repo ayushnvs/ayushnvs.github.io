@@ -7,13 +7,19 @@
     <body>
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
         <style>
+            body {
+                background-color: rgb(230, 240, 240);
+            }
+            [type='checkbox'] {
+                margin: 10px 5px 10px 5px;
+            }
             .smaller-image {
                 width: 200px;
                 border-color: rgb(120, 221, 162);
                 border-width: 5px;
                 border-style: solid;
+                border-radius: 8px;
             }
-
             p {
                 font-size: 20px;
                 color: rgb(84, 133, 7)
@@ -22,17 +28,20 @@
                 color: rgb(174, 0, 255);
                 font-family: Lobster, "times new roman";
             }
-
             ol {
                 font-size: 18px;
                 color: rgb(243, 95, 95);
             }
         </style>
         <main>
-            <h1 class="heading">Welcome to My Blog</h1>
+            <div>
+                <h1 class="heading">Welcome to My Blog</h1>
+            </div>
             <!--<p style="color: yellow;">Sorry for this big photo of me. I don't know how to decrease the size yet.</p>-->
             <!--My Image-->
-            <img class="smaller-image" src="https://i.imgur.com/iNVbrgX.jpg" alt="It's me: Ayush">
+            <div>
+                <img class="smaller-image" src="https://i.imgur.com/iNVbrgX.jpg" alt="It's me: Ayush">
+            </div>
             <!--Introduction-->
             <div>
                 <h2 class="heading">My Introduction</h2>
