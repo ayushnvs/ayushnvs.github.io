@@ -18,7 +18,8 @@ nav li {
     padding: 10px;
 }
 .menu {
-    
+    /*____________*/
+    background-color: blue;
 }
 nav a {
     position: relative;
