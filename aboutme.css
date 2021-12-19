@@ -3,7 +3,6 @@ body {
     font-family: lobster;
     font-size: 20px;
     color: rgb(84, 133, 7);
-    text-align: center;
 }
 [type='checkbox'] {
     margin: 10px 5px 10px 5px;
