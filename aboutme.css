@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(237, 250, 252);
+    font-family: lobster;
+    font-size: 20px;
+    color: rgb(84, 133, 7);
+    text-align: center;
+}
+[type='checkbox'] {
+    margin: 10px 5px 10px 5px;
+}
+section li {
+    display: inline;    
+}
+.smaller-image {
+    width: 200px;
+    border-color: rgb(217, 250, 195);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+#img-card {
+    width: 200px;
+    margin: auto;
+}
+p {
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-family: lobster;
+    color: rgb(84, 133, 7);
+    text-align: center;
+}
+.heading {
+    padding-top: 20px;
+    color: rgb(174, 0, 255);
+    font-family: Lobster, "times new roman";
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    background-color: rgb(81, 223, 135);
+    margin: 10px 200px 10px 200px;
+    padding: 2px;
+    color:rgb(174, 0, 255);
+    font-family: Lobster;
+}
+
+ul {
+    padding-bottom: 20px;
+    margin: auto 200px auto 200px;
+    font-size: 18px;
+    color: rgb(243, 95, 95);
+}
+form {
+    text-align: center;
+}
+#follow-card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: auto 200px 20px 200px;
+}
+.follow-links {
+    padding: 20px;
+}
+#follow-content {
+    margin: auto 100px auto 100px;
+    text-align: center;
+}
