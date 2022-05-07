@@ -3,49 +3,25 @@
     <head>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<!--         <link rel="stylesheet" type="text/css" href="index.css"> -->
+		  <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</link>
+        <link rel="stylesheet" type="text/css" href="index.css">
         <title>MyGitHubPages</title>
-		<style>
-			body {
-				margin: 0;
-			}
-			.menu-bar {
-				background: #c4c3d0;
-				height: 4em;
- 				display: grid;
-				grid-template-columns: 1fr 3fr 1fr;
-			}
-			.menus {
- 				display: grid;
-				grid-template-columns: 1fr 1fr 1fr;	
-				justify-self: end;
-				align-self: center;
-				gap: 1em;
-			}
-			.main-section {
-				background: #eee;
-				display: grid;
-				grid-template-columns: 1fr 3fr 1fr;
-			}
-			.content {
-				text-align: justify;
-			}
-			.footer {
-				background: #c4c3d0;
-				height: 6em;
-			}
-		</style>
     </head>
   	<body>
-        <div class='menu-bar'>
+		<div class='title-bar'>
 <!-- 			This is going to be my Menu bar! So coool! -->
-			<div></div>
-			<div class='menus'>
-				<div>Home</div>
-				<div>About Me</div>
-				<div>Contact</div>
-			</div>
-			<div></div>
+			<nav class='menu-bar'>
+				<div></div>
+				<div class='menus'>
+					<div class='logo'><i class='fas fa-home'></i><a href='https:ayushnvs.github.io'> Ayushvns</a></div>
+					<div class='menu-option'><i class='fas fa-database'></i><a href='#'> Data</a></div>
+					<div class='menu-option'><i class='fas fa-child'></i><a href='pages/aboutme.html'>About Me</a></div>
+					<div class='menu-option'><i class='fas fa-envelope'></i><a href='#'> Contact</a></div>
+				</div>
+				<div></div>
+			</nav>
 		</div>
 		<div class='main-section'>
 			<div>
@@ -61,6 +37,9 @@
 		</div>
 		<div class='footer'>
 <!-- 			Footer area. -->
+			<div class='copyright'>
+				Copyright <i class='fas fa-copyright'></i> All rights reserved.
+			</div>
 		</div>
     </body>
 </html>
