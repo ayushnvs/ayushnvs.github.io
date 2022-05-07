@@ -1,37 +1,11 @@
-body {
+ body {
     background-color: rgb(237, 250, 252);
-    font-family: lobster;
+    font-family: ;
     font-size: 20px;
-    color: rgb(84, 133, 7);
+    color: rgb(84, 133, 7); 
+    padding: 0em;
 }
-[type='checkbox'] {
-    margin: 10px 5px 10px 5px;
-}
-nav ul {
-    text-align: center;
-    font-size: 20px;
-}
-#navbar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 40px;
-    background-color: rgb(0, 174, 255);
-}
-nav li {
-    display: inline;
-    padding: 10px;
-}
-nav a {
-    position: relative;
-    top: 8px;
-    color: white;
-    text-align: center;
-}
-section li {
-    display: inline;    
-}
+
 .smaller-image {
     width: 200px;
     border-color: rgb(217, 250, 195);
@@ -40,6 +14,69 @@ section li {
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
+.menu {
+    background: rgb(78, 160, 228);
+    padding: 0em;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 2em;
+}
+
+#navbar > div {
+    margin-left: 1em;
+    align-self: center;
+    justify-self: center;
+
+}
+
+#navbar a {
+    color: beige;
+}
+
+.welcome-heading {
+    text-align: center;
+    padding: 1em;
+    color: rgb(55, 199, 151);
+}
+
+.welcome-heading-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+}
+
+.welcome-heading-2 > div {
+    padding: 1em;
+    align-self: center;
+    justify-self: center;
+}
+
+.welcome-heading-2 h2 {
+    color: rgb(99, 150, 24);
+}
+
+/*
+[type='checkbox'] {
+    margin: 10px 5px 10px 5px;
+}
+nav ul {
+    text-align: center;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+.welcome-text {
+    align-self: center;
+}
+
 #img-card {
     width: 200px;
     margin: auto;
@@ -76,7 +113,7 @@ form {
     text-align: center;
 }
 #follow-card {
-    /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin: auto 200px 20px 200px;
 }
 .follow-links {
@@ -85,4 +122,4 @@ form {
 #follow-content {
     margin: auto 100px auto 100px;
     text-align: center;
-}
+} */
