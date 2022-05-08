@@ -11,10 +11,12 @@ a:hover {
     color: blue;
     /* font-size: large; */
 }
-/* .title-bar {
+.title-bar {
     position: fixed;
-    z-index: 100 !important;
-} */
+    z-index: 1;
+    background: white;
+    width: 100%;
+}
 .menu-bar {
     /* background: #c4c3d0; */
     /* position: fixed; */
@@ -43,7 +45,7 @@ a:hover {
     border:1px solid black;
 } */
 .main-section {
-    /* margin-top: 4em; */
+    padding: 4em;
     /* border:1px solid rgb(250, 4, 4); */
     /* background: #eee; */
     display: grid;
