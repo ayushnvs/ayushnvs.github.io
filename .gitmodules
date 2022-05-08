@@ -1,0 +1,3 @@
+[submodule "responsive-web-design"]
+	path = responsive-web-design
+	url = https://github.com/ayushnvs/responsive-web-design.git
