@@ -1,0 +1,56 @@
+:root {
+	--primary: white;
+	--shadow: 0 1px 5px rgba(233, 232, 232, 0.8);
+}
+
+body {
+	margin: 0;
+}
+
+.title-bar {
+	position: fixed;
+	z-index: 1;
+	background: white;
+	width: 100%;
+	box-shadow: var(--shadow);
+	height: 4em;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+
+.menus {
+	display: grid;
+	grid-template-columns: 3fr 1fr 1fr 1fr;
+	align-self: center;
+	gap: 1em;
+}
+
+.menus a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: large;
+}
+
+.menus a:hover {
+	color: blue;
+}
+
+.top-container {
+	padding: 4em;
+	display: grid;
+	grid-template-columns: 1fr 1 fr;
+}
+
+.me {
+	background: url(../../img/myphotosq.jpg);
+	min-height: 400px;
+	background-size: cover;
+	background-position: center;
+	padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+}
+
