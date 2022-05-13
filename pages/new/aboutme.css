@@ -5,17 +5,22 @@
 
 body {
 	margin: 0;
+	display: grid;
+	grid-template-areas: 
+	'title-bar'
+	'top-container';
 }
 
 .title-bar {
 	position: fixed;
 	z-index: 1;
-	background: white;
+	/* background: white; */
 	width: 100%;
 	box-shadow: var(--shadow);
 	height: 4em;
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr;
+	border: 2px solid greenyellow;
 }
 
 .menus {
@@ -37,20 +42,27 @@ body {
 }
 
 .top-container {
-	padding: 4em;
+	margin-top: 4em;
+	padding-top: 0;
 	display: grid;
-	grid-template-columns: 1fr 1 fr;
+	grid-template-rows: 1fr 4fr;
+	gap: 1em;
+	border: 2px solid red;
 }
 
 .me {
 	background: url(../../img/myphotosq.jpg);
-	min-height: 400px;
+	height: 200px;
+	width: 200px;
 	background-size: cover;
 	background-position: center;
-	padding: 3rem;
-	display: flex;
-	flex-direction: column;
-	align-items: start;
-	justify-content: center;
+	border: 1px solid orange;
+	justify-self: center;
+}
+
+.heading {
+	border: 1px solid orange;
+	align-self: end;
+	justify-self: center;
 }
 
