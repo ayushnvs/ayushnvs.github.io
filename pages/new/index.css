@@ -50,13 +50,62 @@ a:hover {
 	display: grid;
 	grid-template-columns: 1fr 3fr 1fr;
 }
+.top-container {
+	display: grid;
+	grid-template-rows: auto;
+	/* gap: 1rem; */
+}
+
+.heading {
+	padding: 1rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+}
+
+.me {
+	background: url(../../img/myphotosq.jpg);
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	justify-self: center;
+}
+
+.info-content {
+	margin: 1rem 4rem 1rem 4rem;
+	padding: 1rem 3rem 1rem 3rem;
+	text-align: justify;
+	background: rgb(14, 0, 0);
+	line-height: 0.5;
+}
+
+.info-content p {
+	color: white;
+}
+
+.color-1 {
+	color: greenyellow;
+}
+
+.color-2 {
+	color: rgb(248, 56, 88);
+}
+
+.color-3 {
+	color: yellow;
+}
+
 .content {
 	text-align: center;
 	font-weight: bold;
-	padding-top: 150px;
-	padding-bottom: 200px;
+	padding-top: 20px;
 }
+
 footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	box-shadow: 0 1px 5px rgba(184, 183, 183, 0.8);
 	/* border:1px solid rgb(250, 4, 4); */
 	/* background: #c4c3d0; */
@@ -67,4 +116,32 @@ footer {
 .copyright {
 	justify-self: center;
 	align-self: center;
+}
+
+@media (max-width: 1000px) {
+	.menus span.nav-me {
+		display: none;
+	}
+}
+
+@media  (max-width: 700px) {
+	.menus span {
+		display: none;
+	}
+
+	.menus a:hover span {
+		display: block;
+		padding: 0.25em 0.5em;
+		background-color: black;
+		color: #fff;
+		text-align: center;
+		border-radius: 0.25em;
+		white-space: nowrap;
+	}
+
+	.main-section {
+		display: grid;
+		grid-template-columns: 1fr 250fr 1fr;
+	}
+
 }
