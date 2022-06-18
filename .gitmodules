@@ -3,4 +3,4 @@
 	url = https://github.com/ayushnvs/responsive-web-design.git
 [submodule "WebRegex"]
 	path = WebRegex
-	url = git@github.com:ayushnvs/WebRegex.git
+	url = https://github.com/ayushnvs/WebRegex.git
