@@ -64,7 +64,7 @@ a:hover {
 }
 
 .me {
-	background: url(../../img/myphotosq.jpg);
+	background: url(./img/myphotosq.jpg);
 	background-size: cover;
 	width: 200px;
 	height: 200px;
