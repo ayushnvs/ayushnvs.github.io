@@ -1,9 +1,0 @@
-[submodule "responsive-web-design"]
-	path = responsive-web-design
-	url = https://github.com/ayushnvs/responsive-web-design.git
-[submodule "WebRegex"]
-	path = WebRegex
-	url = https://github.com/ayushnvs/WebRegex.git
-[submodule "datasangrah"]
-	path = datasangrah
-	url = https://github.com/ayushnvs/datasangrah.git
