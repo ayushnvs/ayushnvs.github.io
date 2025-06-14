@@ -1,106 +1,63 @@
-body {
-	margin: 0;
-}
-.menus a {
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
-	font-size: large;
-}
-a:hover {
-	color: blue;
-}
-.title-bar {
-	position: fixed;
-	z-index: 1;
-	background: white;
-	width: 100%;
-	box-shadow: 0 1px 5px rgba(233, 232, 232, 0.8);
-	height: 4em;
-	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
-}
-
-.logo {
-	align-self: start;
-}
-
-.menus {
-	 display: grid;
-	grid-template-columns: 3fr 1fr 1fr 1fr;
-	align-self: center;
-	gap: 1em;
-}
-
-.menu-option {
-	text-align: right;
-}
-
-.main-section {
-	padding: 4em;
-	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
-}
-
-.top-container {
-	display: grid;
-	grid-template-rows: auto;
-	/* gap: 1rem; */
-}
-
-.heading {
-	padding: 1rem;
-	text-align: center;
-	font-weight: bold;
-	font-size: larger;
-}
-
-.me {
-	background: url(../../img/myphotosq.jpg);
-	background-size: cover;
-	width: 200px;
-	height: 200px;
-	justify-self: center;
-}
-
-.content {
-	margin: 1rem 4rem 1rem 4rem;
-	padding: 1rem 3rem 1rem 3rem;
-	text-align: center;
-	background: rgb(14, 0, 0);
-	line-height: 0.5;
-}
-
-.content p {
-	color: white;
-}
-
-.color-1 {
-	color: greenyellow;
-}
-
-.color-2 {
-	color: rgb(248, 56, 88);
-}
-
-.color-3 {
-	color: yellow;
-}
 
 
-
-footer {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	box-shadow: 0 1px 5px rgba(184, 183, 183, 0.8);
-	height: 6em;
-	display: grid;
-	grid-template-columns: 1fr;
+.nvs-main {
+  max-width: 900px;
+  margin: 1rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  /* box-shadow: 0 4px 20px rgba(0,0,0,0.05); */
 }
 
-.copyright {
-	justify-self: center;
-	align-self: center;
+.nvs-chatgpt-logo {
+  margin-bottom: 2rem;
+  justify-items: center;
+}
+
+.nvs-chatgpt-logo svg {
+  width: 100px;
+  height: auto;
+}
+
+.nvs-prompt-content {
+	justify-items: right;
+}
+
+.nvs-prompt {
+  background-color: #f1f1f1;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+hr {
+	border-color: #0d0d0d0d;
+	height: 0px;
+	border-top-width: 1px;
+}
+
+.nvs-intro {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.nvs-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.nvs-content p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.nvs-content .nvs-highlight {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
 }
