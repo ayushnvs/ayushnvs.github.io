@@ -1,75 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Website Navbar with Search Dialog</title>
+    <title>ayushnvs - Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="navbar-left">
-            <a href="#" class="logo">
-                <svg viewBox="0 0 24 24" fill="currentColor" style="width: 24px; height: 24px;">
-                    <path d="M2 20h20v-4H2v4zm2-3h2v2H4v-2zm6 0h2v2h-2v-2zm6 0h2v2h-2v-2zm-8-6h8v4h-8v-4zm-2 0h2v4H8v-4zm-6-6h20v4H2V5zm2 3h2v-2H4v2zm6 0h2v-2h-2v2zm6 0h2v-2h-2v2z"/>
-                </svg>
-            </a>
-            <ul class="nav-links">
-                <li><a href="#">Docs</a></li>
-                <li><a href="#">Examples</a></li>
-                <li><a href="#">Icons</a></li>
-                <li><a href="#">Themes</a></li>
-                <li><a href="#">Blog</a></li>
+    <nav class="nvs-menu">
+        <div class="nvs-logo ">
+            <img src="assets/img/Logo1Edit.png" class="nvs-logo-link" />
+        </div>
+        <ul class="nvs-list">
+            <li class="nvs-list-item">
+                <a href="/" class="nvs-list-link">Home</a>
+            </li>
+            <li class="nvs-list-item">
+                <a href="pages/about" class="nvs-list-link">About</a>
+            </li>
+            <li class="nvs-list-item">
+                <a href="pages/contact" class="nvs-list-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nvs-work">
+        <div class="nvs-subheading">
+            <p class="nvs-sub-title">My Works</p>
+        </div>
+        <div class="">
+            <ul class="nvs-list">
+                <li class="nvs-list-item">
+                    <a href="/" class="nvs-list-link">Home</a>
+                </li>
+                <li class="nvs-list-item">
+                    <a href="/faq-accordion-main" class="nvs-list-link">FAQ Accordion Main</a>
+                </li>
+                <li class="nvs-list-item">
+                    <a href="/blog-preview-card-main" class="nvs-list-link">Blog Preview Card Main</a>
+                </li>
+                <li class="nvs-list-item">
+                    <a href="/recipe-page-main" class="nvs-list-link">Recipe Page Main</a>
+                </li>
+                <li class="nvs-list-item">
+                    <a href="/social-links-profile-main" class="nvs-list-link">Social Links Profile Main</a>
+                </li>
             </ul>
         </div>
-        <div class="navbar-right">
-            <div class="search-bar-container">
-                <div class="search-bar">
-                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px; margin-right: 8px;">
-                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-                    </svg>
-                    <input type="text" placeholder="Search docs" id="search-input">
-                </div>
-                <button class="search-button">Ctrl+K</button>
-            </div>
-            <div class="nav-icons">
-                <a href="#"><svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/><path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 4c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg></a>
-                <a href="#"><svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px;"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></a>
-                <a href="#">v5.3</a>
-                <div class="dropdown">
-                    <button class="dropdown-toggle">
-                        <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px;"><path d="M7 10l5 5 5-5z"/></svg>
-                    </button>
-                    </div>
-            </div>
-        </div>
-    </nav>
-
-    <div class="search-dialog" id="search-dialog">
-        <div class="search-dialog-header">
-            <svg viewBox="0 0 24 24" fill="currentColor" style="width: 20px; height: 20px; margin-right: 8px;">
-                <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-            </svg>
-            <input type="text" placeholder="Search docs" id="dialog-search-input">
-        </div>
-        <div class="search-dialog-content">
-            <p class="no-results">No recent searches</p>
-        </div>
-        <div class="search-dialog-footer">
-            <div class="shortcuts">
-                <span><svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> to select</span>
-                <span><svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px; transform: rotate(180deg);"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg> to navigate</span>
-                <span>esc to close</span>
-            </div>
-            <div class="powered-by">
-                <span>Search by</span>
-                <svg viewBox="0 0 133 24" fill="currentColor" style="width: auto; height: 16px; margin-left: 5px;">
-                    <path d="M24.47 7.73c0-2.14-1.76-3.88-3.92-3.88h-1.56v9.3h1.56c2.16 0 3.92-1.74 3.92-3.86zm-2.36.02c0 1.2-.96 2.18-2.16 2.18h-1.56v-4.36h1.56c1.2 0 2.16.98 2.16 2.18zM29.8 11.65c-.5 1.14-1.36 1.92-2.46 2.34v-8.2c1.1.42 1.96 1.2 2.46 2.34.5-1.14 1.36-1.92 2.46-2.34v8.2c-1.1-.42-1.96-1.2-2.46-2.34zM37.7 7.73c0-2.14-1.76-3.88-3.92-3.88h-3.18v9.3h3.18c2.16 0 3.92-1.74 3.92-3.86zm-2.36.02c0 1.2-.96 2.18-2.16 2.18h-3.18v-4.36h3.18c1.2 0 2.16.98 2.16 2.18zM47.18 11.65c-.5 1.14-1.36 1.92-2.46 2.34v-8.2c1.1.42 1.96 1.2 2.46 2.34.5-1.14 1.36-1.92 2.46-2.34v8.2c-1.1-.42-1.96-1.2-2.46-2.34zM52.95 13.56l-2.8-5.84-2.8 5.84h1.66l1.14-2.5 1.14 2.5zm-1.2-3.08l1.64 3.4h-3.28zM58.6 7.73c0-2.14-1.76-3.88-3.92-3.88h-1.56v9.3h1.56c2.16 0 3.92-1.74 3.92-3.86zm-2.36.02c0 1.2-.96 2.18-2.16 2.18h-1.56v-4.36h1.56c1.2 0 2.16.98 2.16 2.18zM64.87 13.56l-2.8-5.84-2.8 5.84h1.66l1.14-2.5 1.14 2.5zm-1.2-3.08l1.64 3.4h-3.28zM72.26 11.65c-.5 1.14-1.36 1.92-2.46 2.34v-8.2c1.1.42 1.96 1.2 2.46 2.34.5-1.14 1.36-1.92 2.46-2.34v8.2c-1.1-.42-1.96-1.2-2.46-2.34zM78.03 7.73c0-2.14-1.76-3.88-3.92-3.88h-3.18v9.3h3.18c2.16 0 3.92-1.74 3.92-3.86zm-2.36.02c0 1.2-.96 2.18-2.16 2.18h-3.18v-4.36h3.18c1.2 0 2.16.98 2.16 2.18zM87.4 11.65c-.5 1.14-1.36 1.92-2.46 2.34v-8.2c1.1.42 1.96 1.2 2.46 2.34.5-1.14 1.36-1.92 2.46-2.34v8.2c-1.1-.42-1.96-1.2-2.46-2.34zM93.17 13.56l-2.8-5.84-2.8 5.84h1.66l1.14-2.5 1.14 2.5zm-1.2-3.08l1.64 3.4h-3.28zM98.9 7.73c0-2.14-1.76-3.88-3.92-3.88h-1.56v9.3h1.56c2.16 0 3.92-1.74 3.92-3.86zm-2.36.02c0 1.2-.96 2.18-2.16 2.18h-1.56v-4.36h1.56c1.2 0 2.16.98 2.16 2.18zM105.1 11.65c-.5 1.14-1.36 1.92-2.46 2.34v-8.2c1.1.42 1.96 1.2 2.46 2.34.5-1.14 1.36-1.92 2.46-2.34v8.2c-1.1-.42-1.96-1.2-2.46-2.34zM110.87 7.73c0-2.14-1.76-3.88-3.92-3.88h-3.18v9.3h3.18c2.16 0 3.92-1.74 3.92-3.86zm-2.36.02c0 1.2-.96 2.18-2.16 2.18h-3.18v-4.36h3.18c1.2 0 2.16.98 2.16 2.18zM120.24 11.65c-.5 1.14-1.36 1.92-2.46 2.34v-8.2c1.1.42 1.96 1.2 2.46 2.34.5-1.14 1.36-1.92 2.46-2.34v8.2c-1.1-.42-1.96-1.2-2.46-2.34zM128.47 7.73c0-2.14-1.76-3.88-3.92-3.88h-1.56v9.3h1.56c2.16 0 3.92-1.74 3.92-3.86zm-2.36.02c0 1.2-.96 2.18-2.16 2.18h-1.56v-4.36h1.56c1.2 0 2.16.98 2.16 2.18z"/>
-                </svg>
-            </div>
-        </div>
     </div>
-
+    <footer>
+        <div class="nvs-copyright">
+            <p class="nvs-copyright-text">ayushnvs © 2025. All rights reserved.</p>
+            <p class="nvs-copyright-text">Made with ❤️ using HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
